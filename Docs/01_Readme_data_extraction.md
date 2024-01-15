@@ -42,6 +42,3 @@ These R scripts are designed for extracting football player statistics from the 
 # Customization
 - The scripts can be modified to target different leagues or seasons by adjusting the leagues list in the Excel file and the timeframe in the API request.
 - Additional data processing or analysis steps can be incorporated as per specific requirements.
-
-# Support
-For any issues or questions regarding the script, please refer to the Wyscout API documentation or contact their support team for API-related queries. For script-specific issues, consider reaching out to a professional with expertise in R programming and data analysis in football.
