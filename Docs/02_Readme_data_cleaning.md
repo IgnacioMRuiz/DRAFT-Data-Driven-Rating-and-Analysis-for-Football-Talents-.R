@@ -26,6 +26,7 @@ Output File Path: Set the path for the cleaned data Excel file (ruta_archivo_exc
 - Renaming Columns: Columns are renamed to Spanish for clarity and consistency (nombres_columnas_espanol).
 - Data Type Conversion: Numeric conversions are performed for specific columns (columnas_para_convertir).
 - New Metrics Calculation: Calculates new metrics like 'Diferencia xG/Goles'.
+- New Column: Creation of new column Id_unica, to identify each row..
 - General Position Mapping: Categorizes primary positions into general position groups.
 - Exporting Data: The final cleaned and processed dataframe is exported as an Excel file using write_xlsx.
 
