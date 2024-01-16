@@ -376,9 +376,15 @@ get_posicion_general <- function(posicion_principal) {
 player_stats_all_seasons <- player_stats_all_seasons %>%
   mutate(Posición_General = sapply(`Posición Principal`, get_posicion_general))
 
+# Crear la nueva columna 'ID_unico'
+player_stats_all_seasons <- player_stats_all_seasons %>%
+  mutate(ID_unico = paste0(Id, Temporada))
+
 # Exportar df a excel
 # Especificar la ruta y el nombre del archivo de Excel
 ruta_archivo_excel <- "/Users/nacho/Desktop/DV7/PowerBI_App/Data/Processed/player_stats_all_seasons.xlsx"
 
 # Exportar el dataframe a Excel
 write_xlsx(player_stats_all_seasons, ruta_archivo_excel)
+
+rm(list = ls())
