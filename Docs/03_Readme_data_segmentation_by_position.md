@@ -1,7 +1,7 @@
 # Overview
 This R script is designed to segment and export football player data based on their position on the field. It uses a previously processed dataset, divided according to the "General Position" of each player, and generates separate Excel files for each position. This process facilitates position-specific analysis and improves data organisation for applications such as Power BI visualisations.
 
-# Requierements
+# Requirements
 - R and RStudio: Development and execution platforms.
 - R libraries:
   - readxl: For reading Excel files.
