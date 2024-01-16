@@ -15,7 +15,7 @@ This R script is designed to segment and export football player data based on th
   - install.packages("dplyr")
   - install.packages("writexl")
 
-# Using
+# Usage
 1. Make sure that the processed data file (player_stats_all_seasons.xlsx) is located in the specified path (/Users/nacho/Desktop/DV7/PowerBI_App/Data/Processed).
 2. Define the output path for the segmented files in the output_path variable.
 3. Run the script in RStudio. The script will perform the following actions:
