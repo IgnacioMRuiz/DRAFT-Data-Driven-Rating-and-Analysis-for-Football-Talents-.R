@@ -77,3 +77,5 @@ ruta_archivo_excel <- "/Users/nacho/Desktop/DV7/PowerBI_App/Data/Raw/player_stat
 
 # Exportar el dataframe a Excel
 write_xlsx(player_stats_2013_raw, ruta_archivo_excel)
+
+rm(list = ls())
