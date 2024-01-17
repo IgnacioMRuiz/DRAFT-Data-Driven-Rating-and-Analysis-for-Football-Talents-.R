@@ -1,6 +1,9 @@
 # Overview
 The /Normalized folder contains football player data that has undergone a normalization process. This folder is a crucial component in the data processing pipeline, serving as a repository for data that has been standardized across various metrics. The normalization process involves applying a z-score normalization to selected statistical columns of player data, making the data comparable across different player positions and suitable for advanced statistical analyses and visualizations.
 
+# Expected Data Structure
+The files within this folder are organized in XLSX format.
+
 # Expected Files
 Each file in this folder corresponds to a specific player position, reflecting the segmentation of data done in earlier steps of the pipeline. The names of the files are indicative of the player positions they represent. For example, a file named Midfielder_normalized.xlsx would contain normalized data for players in the Midfielder position.
 
