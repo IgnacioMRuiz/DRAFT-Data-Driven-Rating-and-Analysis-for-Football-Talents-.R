@@ -1,6 +1,9 @@
 # Overview
 The /Clusterized folder is an integral part of the football player data analysis pipeline, containing the results of a sophisticated clustering process. This folder houses the data that has been transformed through UMAP (Uniform Manifold Approximation and Projection) for dimensionality reduction and subsequently clustered using Gaussian Mixture Models (GMM). This advanced clustering technique categorizes players into distinct groups based on their performance metrics, tailored to their specific positions on the field.
 
+# Expected Data Structure
+The files within this folder are organized in XLSX format.
+
 # Expected Files
 Each file in this folder corresponds to a distinct player position and contains the clustered data specific to that position. The files are named to reflect the player positions they represent, aligning with the segmentation conducted in previous steps.
 
