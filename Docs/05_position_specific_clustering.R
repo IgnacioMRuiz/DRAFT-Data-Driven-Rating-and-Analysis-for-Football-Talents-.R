@@ -76,3 +76,5 @@ for (posicion in names(metricas_posiciones)) {
   # Guardar los resultados en formato Excel
   write_xlsx(resultados_clusterizacion, paste0(ruta_carpeta_clusterized, "/", posicion, "_clusterized.xlsx"))
 }
+
+rm(list = ls())
