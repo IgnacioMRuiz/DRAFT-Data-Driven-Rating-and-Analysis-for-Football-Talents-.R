@@ -30,8 +30,8 @@ Características Adicionales: Gestiona un token de acceso y captura errores para
 
 # ¡¡Nota Importante sobre el Token de Wyscout y los Scripts de Extracción de Datos!!
   # Gestión del Token en el Script Maestro:
-  - El elemento más crítico que requiere actualización regular es el token de acceso para Wyscout, necesario para la ejecución del script 01_data_extraction_2023.R y los subsiguientes.
-  - Este token se obtiene a través de la funcionalidad de herramientas de desarrollador de Wyscout y cambia aproximadamente cada 20 minutos.
+  - El elemento más crítico que **requiere actualización regular** es el **token** de acceso para Wyscout, necesario para la ejecución del script 01_data_extraction_2023.R y los subsiguientes.
+  - Este token se obtiene a través de la funcionalidad de herramientas de desarrollador de Wyscout y **cambia aproximadamente cada 20 minutos**.
   - Si el token no está actualizado al momento de la ejecución, el script producirá un error.
   - El token debe actualizarse en el script maestro (Master.R), y este cambio se propagará a los scripts de extracción de datos cuando se ejecuten desde el maestro.
 
@@ -39,7 +39,7 @@ Características Adicionales: Gestiona un token de acceso y captura errores para
   - Si el script 01_data_extraction_2023.R no se ejecuta correctamente debido a un token inválido, la integridad de los datos extraídos estará comprometida. Esto puede afectar a todas las fases subsiguientes del proyecto, ya que dependen de los datos iniciales extraídos.
   # Manejo de Scripts de Extracción de Datos:
   - Existen dos scripts de extracción de datos: 01_data_extraction_2023.R para la temporada actual y 01_data_extraction_2018_2022.R para temporadas anteriores.
-  - El script para las temporadas anteriores *no necesita ser incluido* en el bucle de ejecución del script maestro, ya que maneja datos históricos que son de naturaleza estática y no cambian.
+  - El script para las temporadas anteriores **no necesita ser incluido** en el bucle de ejecución del script maestro, ya que maneja datos históricos que son de naturaleza estática y no cambian.
   - Estos scripts solo deberían modificarse para mantenimiento o alteraciones puntuales, aparte de la actualización regular del token.
 
 La correcta gestión del token es esencial para garantizar el flujo ininterrumpido y la precisión del proyecto.
