@@ -14,10 +14,10 @@ This script is designed to unify clustered player data with processed player sta
 1. Ensure that the clusterized player data files are present in the specified 'Clusterized' directory.
 2. Confirm that the processed player statistics file is available in the 'Processed' directory.
 3. Run the script in your R environment. The script will perform the following steps:
-  - Load and bind all clusterized data files into a single dataframe.
-  - Read the processed player statistics data.
-  - Merge the clusterized data with the processed data based on a unique identifier (ID_unico).
-  - Export the combined data to an Excel file named player_stats_final.xlsx in the 'Final' directory.
+     - Load and bind all clusterized data files into a single dataframe.
+     - Read the processed player statistics data.
+     - Merge the clusterized data with the processed data based on a unique identifier (ID_unico).
+     - Export the combined data to an Excel file named player_stats_final.xlsx in the 'Final' directory.
 
 # Output
 - Excel File: player_stats_final.xlsx
